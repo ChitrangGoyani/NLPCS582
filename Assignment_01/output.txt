@@ -1,0 +1,53 @@
+Enter word or sentence (EXIT to break): cat
+
+Word: cat  Position in vocabulary: 4488
+
+                                              Word       Cosine distance
+------------------------------------------------------------------------
+                                            feline		0.767503
+                                              cats		0.764959
+                                               dog		0.756797
+                                           raccoon		0.713277
+                                             puppy		0.699716
+                                             tabby		0.693702
+                                           hamster		0.680997
+                                            rabbit		0.679251
+                                               rat		0.678251
+                                            kitten		0.675575
+
+
+Enter word or sentence (EXIT to break): she
+
+Word: she  Position in vocabulary: 66
+
+                                              Word       Cosine distance
+------------------------------------------------------------------------
+                                               her		0.766164
+                                                he		0.749010
+                                           herself		0.716433
+                                              hers		0.661547
+                                            mother		0.655438
+                                             woman		0.638164
+                                           husband		0.631269
+                                          daughter		0.594019
+                                              girl		0.576980
+                                               mum		0.575170
+                                               
+                                              
+Enter word or sentence (EXIT to break): like
+
+Word: like  Position in vocabulary: 96
+
+                                              Word       Cosine distance
+------------------------------------------------------------------------
+                                             weird		0.648742
+                                             crazy		0.617901
+                                             scary		0.584918
+                                             silly		0.583002
+                                               odd		0.577642
+                                           strange		0.566909
+                                        everywhere		0.561595
+                                              cute		0.552054
+                                            really		0.545004
+                                             likes		0.543085
+                                            
