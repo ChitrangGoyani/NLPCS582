@@ -476,7 +476,7 @@ void *TrainModelThread(void *id) {
         // of negative words from the vocabulary at random. The objective is then to maximize the probability of the target word and minimize the probability 
         // of the negative words. The probability of each word is computed using a sigmoid function applied to the dot product of the word embedding and the 
         // context embedding. 
-        // negative indicates the number of negative words selected by unigram distribution
+        // negative indicates the number of negative words selected by unigram distribution, this unigram table is a simple 1D array which has word's indices
         if (negative > 0) for (d = 0; d < negative + 1; d++) {
           // just for first iteration, train positive sample i.e. word
           if (d == 0) {
